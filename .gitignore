@@ -1,0 +1,49 @@
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# macOS
+.DS_Store
+._*
+
+# Pycharm
+.idea/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+
+# Project Outputs
+video_index.json
+sd_sync_manifest.json
+3DS/
+Music Videos/
+/.pocketsync-library-id
+/.Imports/
+/Media/
+/DeviceCache/
+/Music/
+/Backups/
+
+# Python plugin development
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+
+# Private development plugins (never bundled or committed)
+/Plugins.local/
